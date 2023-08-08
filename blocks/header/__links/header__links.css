@@ -1,0 +1,20 @@
+.header__links{
+    display: flex;
+    list-style-type:none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+}
+
+a:first-child {
+    margin-left: 30px;
+}
+
+a:nth-child(4) {
+    margin-left: auto;
+}
