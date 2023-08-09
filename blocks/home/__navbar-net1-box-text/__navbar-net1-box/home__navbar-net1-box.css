@@ -1,0 +1,7 @@
+.home__navbar-net1-box{
+    background-color: #23a138;
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    width: 100%;
+}

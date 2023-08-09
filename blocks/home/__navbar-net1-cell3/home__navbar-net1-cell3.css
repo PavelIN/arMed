@@ -1,0 +1,9 @@
+.home__navbar-net1-cell3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    margin-right: 25px;
+}

@@ -6,3 +6,25 @@
 @import url(/blocks/profile/profile.css);
 @import url(/blocks/profile/__img/profile__img.css);
 @import url(/blocks/profile/__text/profile__text.css);
+@import url(/blocks/home/home.css);
+@import url(/blocks/home/__navbar-net1/home__navbar-net1.css);
+@import url(/blocks/home/__navbar-net1-cell/home__navbar-net1-cell.css);
+@import url(/blocks/home/__navbar-net1-text/home__navbar-net1-text.css);
+@import url(/blocks/home/__navbar-net1-list/home__navbar-net1-list.css);
+@import url(/blocks/home/__navbar-net1-img/home__navbar-net1-img.css);
+@import url(/blocks/home/__navbar-net1-human/home__navbar-net1-human.css);
+@import url(/blocks/home/__navbar-net1-cell3/home__navbar-net1-cell3.css);
+@import url(/blocks/home/__navbar-net1-imge/home__navbar-net1-imge.css);
+@import url(/blocks/home/__navbar-net1-box/home__navbar-net1-box.css);
+@import url(/blocks/home/__navbar-net1-box-text/home__navbar-net1-box-text.css);
+@import url(/blocks/home/__navbar-net1-button/home__navbar-net1-button.css);
+@import url(/blocks/home/__navbar-net2/home__navbar-net2.css);
+@import url(/blocks/home/__navbar-net2-text/home__navbar-net2-text.css);
+@import url(/blocks/home/__navbar-net2-container/home__navbar-net2-container.css);
+@import url(/blocks/home/__navbar-net2-list/home__navbar-net2-list.css);
+@import url(/blocks/home/__navbar-net2-link/home__navbar-net2-link.css);
+@import url(/blocks/home/__navbar-net2-title/home__navbar-net2-title.css);
+
+@import url(/blocks/footer/footer.css);
+@import url(/blocks/footer/__tag/footer__tag.css);
+@import url(/blocks/footer/__button-scroll/footer__button-scroll.css);

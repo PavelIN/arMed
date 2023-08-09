@@ -1,0 +1,8 @@
+.home__navbar-net1-cell{
+    width: 283px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #23a138;
+    color: white;
+    display: flex;
+}

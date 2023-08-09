@@ -1,0 +1,8 @@
+.home__navbar-net2-link{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto auto 30px;
+    font-size: 14px;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}

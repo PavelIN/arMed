@@ -6,15 +6,15 @@
     padding: 0;
 }
 
-a{
+.header__ref{
     text-decoration: none;
     display: flex;
 }
 
-a:first-child {
+.header__ref:first-child {
     margin-left: 30px;
 }
 
-a:nth-child(4) {
+.header__ref:nth-child(4) {
     margin-left: auto;
 }
