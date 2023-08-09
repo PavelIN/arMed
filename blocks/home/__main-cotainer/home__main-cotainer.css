@@ -1,0 +1,12 @@
+.home__main-cotainer {
+    background-image: url(/images/main.png);
+    height: 300px;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}

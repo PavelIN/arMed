@@ -1,0 +1,22 @@
+.home__main-possibilities-container-svg{
+    height: 145px;
+    width: 140px;
+    display: flex;
+}
+
+
+.home__main-possibilities-container:nth-child(1) .home__main-possibilities-container-svg{
+    background-color: #51cf66;
+}
+
+.home__main-possibilities-container:nth-child(2) .home__main-possibilities-container-svg{
+    background-color: #b4c5b7;
+}
+.home__main-possibilities-container:nth-child(3) .home__main-possibilities-container-svg{
+    background-color: #b4c5b7;
+}
+
+.home__main-possibilities-container:nth-child(4) .home__main-possibilities-container-svg{
+    background-color: #51cf66;
+}
+

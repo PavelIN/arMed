@@ -24,6 +24,17 @@
 @import url(/blocks/home/__navbar-net2-list/home__navbar-net2-list.css);
 @import url(/blocks/home/__navbar-net2-link/home__navbar-net2-link.css);
 @import url(/blocks/home/__navbar-net2-title/home__navbar-net2-title.css);
+@import url(/blocks/home/__navbar-net1-box-text/__navbar-net1-box/home__navbar-net1-box.css);
+@import url(/blocks/home/__main-cotainer/home__main-cotainer.css);
+@import url(/blocks/home/__main-description/home__main-description.css);
+@import url(/blocks/home/__main-title/home__main-title.css);
+@import url(/blocks/home/__main-text/home__main-text.css);
+@import url(/blocks/home/__main-possibilities/home__main-possibilities.css);
+@import url(/blocks/home/__main-possibilities-container/home__main-possibilities-container.css);
+@import url(/blocks/home/__main-possibilities-container-svg/home__main-possibilities-container-svg.css);
+@import url(/blocks/home/__main-possibilities-container-text/home__main-possibilities-container-text.css);
+@import url(/blocks/home/__main-tutorial/home__main-tutorial.css);
+@import url(/blocks/home/__main-tutorial-img/home__main-tutorial-img.css);
 
 @import url(/blocks/footer/footer.css);
 @import url(/blocks/footer/__tag/footer__tag.css);
