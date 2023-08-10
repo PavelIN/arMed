@@ -1,6 +1,7 @@
 .home__main-possibilities-container-svg{
     height: 145px;
-    width: 140px;
+    
+    min-width: 140px;
     display: flex;
 }
 
@@ -20,3 +21,18 @@
     background-color: #51cf66;
 }
 
+
+
+  @media screen and (max-width: 1100px) {
+    .home__main-possibilities-container-svg {
+        min-width: 100px;
+    }
+ 
+  }
+
+  @media screen and (max-width: 550px) {
+    .home__main-possibilities-container-svg {
+        min-width: 52px;
+    }
+ 
+  }

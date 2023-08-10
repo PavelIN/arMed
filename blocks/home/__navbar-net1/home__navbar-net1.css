@@ -4,3 +4,10 @@
    grid-template-rows: 60px 380px 60px 60px;
    box-shadow: 10px 10px 10px #F1F4F5;
 }
+
+@media screen and (max-width: 550px) {
+   .home__navbar-net1 {
+       margin: auto;
+       width: 283px;
+   }
+ }

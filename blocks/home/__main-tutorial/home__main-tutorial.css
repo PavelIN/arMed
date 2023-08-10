@@ -3,3 +3,31 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 260px 260px;
 }
+
+
+.home__main-tutorial .home__main-tutorial-container:nth-child(4){
+    margin-left: 40px;
+    padding-top: 40px;
+}
+ 
+
+
+@media screen and (max-width: 1150px) {
+    .home__main-tutorial {
+     display: flex;
+     flex-direction: column;
+     gap:40px;
+     
+    }
+    .home__main-tutorial-container{
+        order: 1;
+    }
+
+    .home__main-tutorial .home__main-tutorial-container:nth-child(4){
+        margin-left: 0px;
+        padding-top: 0px;
+        margin-top: 0px;
+        order: 3;
+    }
+  }
+

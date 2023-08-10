@@ -7,3 +7,11 @@
 }
 
 
+@media screen and (max-width: 940px) {
+    .home__main-possibilities {
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 300px;
+     gap:10px
+    }
+  }

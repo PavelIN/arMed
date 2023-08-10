@@ -4,3 +4,12 @@
         margin-top: 50px;
         width: 120px;
     }
+
+
+
+
+    @media screen and (max-width: 550px) {
+        .home__navbar-net1-human {
+            width: 90px;
+        }
+      }

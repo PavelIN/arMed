@@ -1,0 +1,9 @@
+.popup__close{
+    width: 60px;
+    margin-left: auto;
+    border: none;
+    border-radius: 20%;
+    background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+    color: rgb(76, 66, 66);
+    cursor: pointer;
+}

@@ -35,6 +35,18 @@
 @import url(/blocks/home/__main-possibilities-container-text/home__main-possibilities-container-text.css);
 @import url(/blocks/home/__main-tutorial/home__main-tutorial.css);
 @import url(/blocks/home/__main-tutorial-img/home__main-tutorial-img.css);
+@import url(/blocks/home/__main-tutorial-container/home__main-tutorial-container.css);
+@import url(/blocks/home/__main-tutorial-img-container-elips/home__main-tutorial-img-container-elips.css);
+@import url(/blocks/popup/popup.css);
+@import url(/blocks/popup/__container/popup__container.css);
+@import url(/blocks/popup/__close/popup__close.css);
+@import url(/blocks/popup/_set/form__set.css);
+@import url(/blocks/form/form.css);
+@import url(/blocks/form/__container/form__cantainer.css);
+@import url(/blocks/form/__input-error/form__input-error.css);
+@import url(/blocks/form/__save/form__save.css);
+@import url(/blocks/form/__input/form__input.css);
+
 
 @import url(/blocks/footer/footer.css);
 @import url(/blocks/footer/__tag/footer__tag.css);

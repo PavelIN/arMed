@@ -3,4 +3,13 @@
     display: grid;
     grid-template-columns: 283px 2fr;
     gap: 40px;
+    padding-bottom: 30px;
 }
+
+
+@media screen and (max-width: 660px) {
+    .home {
+    display: flex;
+    flex-direction: column;
+    }
+  }

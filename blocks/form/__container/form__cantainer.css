@@ -1,0 +1,6 @@
+.form__cantainer{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    font-size: 12px;
+}

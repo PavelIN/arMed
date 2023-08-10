@@ -9,7 +9,31 @@
 </head>
 
 <body class="body">
+  <div class="popup">
+    <div class="popup__container">
+      <button type="button" class="popup__close">Выход</button>
+      <h2 class="popup__title">Ваши данные</h2>
+      <form name="edit-form" class="form" novalidate>
+        <fieldset class="form__set">
+          <input type="text" name="form" id="form" placeholder="ФИО" class="form__input" required>
+          <input type="tel" name="form" id="form" placeholder="Номер телефона" class="form__input" required>
+          <input type="email" name="form" id="form" placeholder="Электронная почта" class="form__input" required>
+          <input type="password" name="form" id="form" placeholder="Пароль" class="form__input" required>
+          <input type="password" name="form" id="form" placeholder="Подтвердите пароль" class="form__input" required>
+          <div class="form__cantainer">
+         <div>
+            <input type="checkbox">
+            <span>показать пароль</span>
+         </div>
+            <span class="form__input-error popup-error">ошибка</span>
+          </div>
+          <button type="submit" class="form__save">Сохранить</button>
+        </fieldset>
+      </form>
+    </div>
+  </div>
   <div class="page">
+
     <header class="header">
       <nav>
         <ul class="header__links">
@@ -183,26 +207,52 @@
             </div>
           </div>
           <div class="home__main-tutorial">
-            <div></div>
-        
+            <div class="home__main-tutorial-container">
+              <span class="home__main-tutorial-container-title">Инструкция</span>
+              <div class="home__main-tutorial-container-span">
+                <span class="home__main-tutorial-container-number">01</span>
+                <div class="container">
+                  <span class="home__main-tutorial-container-text">Навигация по исследованиям</span>
+                  <span class="home__main-tutorial-container-text2">Для ознакомления с исследованием выберити один из
+                    разделов в меню</span>
+                </div>
+              </div>
+            </div>
+            <div class="home__main-tutorial-img-container">
+              <div class="home__main-tutorial-img-container-elips">
+                <span class="span">01</span>
+              </div>
               <img class="home__main-tutorial-img" src="/images/tutorial1.png">
-   
-       
+            </div>
+            <div class="home__main-tutorial-img-container order">
+              <div class="home__main-tutorial-img-container-elips home__main-tutorial-img-container-elips_right">
+                <span class="span">02</span>
+              </div>
               <img class="home__main-tutorial-img" src="/images/tutorial2.png">
-        
-            <div></div>
+            </div>
+            <div class="home__main-tutorial-container">
+              <div class="home__main-tutorial-container-span">
+                <span class="home__main-tutorial-container-number">02</span>
+                <div class="container">
+                  <span class="home__main-tutorial-container-text">Динамика измерений</span>
+                  <span class="home__main-tutorial-container-text2">Для просмотра динамики исследований нажмите на
+                    кнопку</span>
+                </div>
+              </div>
+            </div>
+
           </div>
+
         </div>
+      </section>
   </div>
-
-  </section>
-
   </main>
   <footer class="footer">
     <span class="footer__tag">© 2018 Atlas Patient</span>
     <button class="footer__button-scroll">На верх ↑</button>
   </footer>
   </div>
+
 </body>
 
 </html>

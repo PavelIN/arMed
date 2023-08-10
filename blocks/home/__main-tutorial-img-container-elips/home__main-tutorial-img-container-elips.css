@@ -1,0 +1,25 @@
+.home__main-tutorial-img-container-elips{
+    width: 33px;
+    height: 33px;
+    background-color: brown;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    left:11%;
+    top:20%;
+}
+
+
+
+.home__main-tutorial-img-container-elips_right{
+left: 84%;
+}
+
+.span{
+    margin: auto;}
+
+
+
+
+

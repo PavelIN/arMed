@@ -18,3 +18,30 @@
 .header__ref:nth-child(4) {
     margin-left: auto;
 }
+
+
+
+@media screen and (max-width: 660px) {
+    .header__links {
+    display: flex;
+    flex-direction: column;
+    }
+    .header__ref{
+        margin: auto;
+        padding: 0;
+        border-bottom: 1px solid rgb(91, 89, 89);
+    }
+    .header__link {
+        color: #3F3F3F;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight:500;
+        margin: 0;
+        margin-right: 0;
+      
+    }
+    .header__ref:first-child {
+        margin-left: 0px;
+        margin: auto;
+    }
+  }

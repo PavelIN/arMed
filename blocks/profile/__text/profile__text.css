@@ -2,3 +2,11 @@
     margin: auto 40px auto auto;
     font-weight: 700;
 }
+
+
+@media screen and (max-width: 480px) {
+    .profile__text {
+    margin: auto;
+    font-size: 14px;
+    }
+  }
