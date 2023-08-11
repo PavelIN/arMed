@@ -9,27 +9,34 @@
 </head>
 
 <body class="body">
-  <div class="popup">
+  <div class="popup popup-form">
     <div class="popup__container">
       <button type="button" class="popup__close">Выход</button>
       <h2 class="popup__title">Ваши данные</h2>
       <form name="edit-form" class="form" novalidate>
         <fieldset class="form__set">
-          <input type="text" name="form" id="form" placeholder="ФИО" class="form__input" required>
-          <input type="tel" name="form" id="form" placeholder="Номер телефона" class="form__input" required>
-          <input type="email" name="form" id="form" placeholder="Электронная почта" class="form__input" required>
-          <input type="password" name="form" id="form" placeholder="Пароль" class="form__input" required>
-          <input type="password" name="form" id="form" placeholder="Подтвердите пароль" class="form__input" required>
+          <input type="text" name="form" id="form" placeholder="ФИО" class="form__input form__input-name" required>
+          <input type="tel" name="form" id="form" placeholder="+7(___)___-__-__" class="form__input form__input-num" required>
+          <input type="email" name="form" id="form" placeholder="Электронная почта" class="form__input form__input-mail" required>
+          <input type="password" name="form" id="form" placeholder="Пароль" class="form__input form__input-password form__input-password-pass" required>
+          <input type="password" name="form" id="form" placeholder="Подтвердите пароль" class="form__input form__input-password 
+          form__input-password-examination" required>
           <div class="form__cantainer">
-         <div>
-            <input type="checkbox">
+         <div class="form_input-checkbo-container">
+            <input class="form_input-checkbox" type="checkbox">
             <span>показать пароль</span>
          </div>
-            <span class="form__input-error popup-error">ошибка</span>
+            <span class="form__input-error popup-error"></span>
           </div>
-          <button type="submit" class="form__save">Сохранить</button>
+          <button type="submit" class="form__save" >Сохранить</button>
         </fieldset>
       </form>
+    </div>
+  </div>
+  <div class="popup popup-callback">
+    <div class="popup__container">
+      <h2 class="popup__title">«Спасибо за ваше обращение!»</h2>
+      <button type="submit" class="popup__close" >Закрыть</button>
     </div>
   </div>
   <div class="page">
@@ -46,8 +53,8 @@
           <a class="header__ref" href="#">
             <li class="header__link">Запись онлайн</li>
           </a>
-          <a class="header__ref" href="#"><img class="header__img" src="/images/profile.png">
-            <li class="header__link">Личные данные</li>
+          <a class="header__ref header__link-profile" href="#"><img class="header__img " src="/images/profile.png">
+            <li class="header__link ">Личные данные</li>
           </a>
           <a class="header__ref" href="#"><img class="header__img" src="/images/exit.png">
             <li class="header__link">Выход</li>
@@ -252,7 +259,7 @@
     <button class="footer__button-scroll">На верх ↑</button>
   </footer>
   </div>
-
+  <script src="/index.js"></script>
 </body>
 
 </html>

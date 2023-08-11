@@ -6,6 +6,11 @@
     background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
     opacity: 1;
     position: relative;
-    height: 370px;
+    height: max-content;
     border-radius: 3%;
+    z-index: 11565545465;
+}
+
+.form_input-checkbo-container{
+    margin-right:auto;
 }
