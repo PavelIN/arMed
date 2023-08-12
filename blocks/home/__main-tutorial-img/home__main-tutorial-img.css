@@ -1,5 +1,6 @@
 .home__main-tutorial-img{
-    width: 100%;
+    max-width: 480px;
+    max-height: 274px;
     object-fit: cover;
     display: block;
     z-index: -234;
