@@ -1,3 +1,5 @@
+
+
 const profile = document.querySelector(".header__link-profile");
 
 const profileName = document.querySelector(".profile__text");
@@ -15,6 +17,7 @@ const secondPassword = document.querySelector(
   ".form__input-password-examination"
 );
 const inputNum = document.querySelector(".form__input-num");
+
 const inputMail = document.querySelector(".form__input-mail");
 const inputName = document.querySelector(".form__input-name");
 
@@ -23,6 +26,12 @@ const error = document.querySelector(".popup-error");
 const popupS = document.querySelectorAll(".popup");
 const popup = document.querySelector(".popup-form");
 const popupCallback = document.querySelector(".popup-callback");
+
+
+$(document).ready(function() {
+  $("#phone").mask("+7 (999) 999-99-99");
+});
+
 
 const inputClear = () => {
   inputs.forEach((element) => {

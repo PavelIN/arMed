@@ -1,5 +1,5 @@
 .home__main-cotainer {
-    background-image: url(/images/main.png);
+    background-image: url(./../../../images/main.png);
     height: 300px;
     max-width: 100%;
     background-position: center;
