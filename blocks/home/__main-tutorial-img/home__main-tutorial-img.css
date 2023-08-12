@@ -1,17 +1,18 @@
 .home__main-tutorial-img{
-    max-width: 480px;
-    max-height: 274px;
+   width: 100%;
     object-fit: cover;
     display: block;
     z-index: -234;
+    max-height: 280px;
    
 }
 
 
 .home__main-tutorial-img-container{
+    max-height: 280px;
     position: relative;
-    max-width: 480px;
-    max-height: 274px;
+ 
+ width: 100%;
  
 }
 
