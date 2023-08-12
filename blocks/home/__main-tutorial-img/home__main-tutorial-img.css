@@ -10,6 +10,8 @@
 
 .home__main-tutorial-img-container{
     position: relative;
+    max-width: 480px;
+    max-height: 274px;
  
 }
 
